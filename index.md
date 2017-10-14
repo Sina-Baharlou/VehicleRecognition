@@ -1,37 +1,5 @@
-## Welcome to GitHub Pages
+### Abstract 
 
-You can use the [editor on GitHub](https://github.com/Sina-Baharlou/VCNN/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+One of the main ingredients to learn a visual representation of an object using the Convolutional Neural Networks is a large and carefully annotated dataset. Acquiring a dataset in a demanded scale is not a straightforward task;  therefore, the community attempts to solve this issue by creating noisy datasets gathered from web sources. In this paper, we studied the behavior of several deep architectures against a noisy dataset using the transfer learning method. In addition, we also proposed a novel approach of discarding the external noise of dataset using an unsupervised method called Isolation Forest. Based on our experiments, we achieved high recognition accuracies above 92 percent using two states of the art deep architectures on the noisy dataset, and we slightly improved the obtained results using the proposed noise reduction framework.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Sina-Baharlou/VCNN/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
