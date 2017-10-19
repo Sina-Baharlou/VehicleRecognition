@@ -6,24 +6,28 @@ One of the main ingredients to learn a visual representation of an object using 
 ---
 
 ### Dataset
-
+<p>
 The project dataset will be uploaded here soon ...
+</p>
 ---
 
 ### Codes
-
+<p>
 The codes use in this project will be uploaded here soon ...
+</p>
 ---
 
 ### Demo
-
+<p>
 The android demonstration program will be added here soon ... 
+</p>
 ---
 
 ### Authors
-
+<p>
 Sina Moayed Baharlou 
-<b> Superviser: </b> Prof. Javad Abbasi Aghamaleki
+</p>
+<p><b> Superviser: </b> Prof. Javad Abbasi Aghamaleki</p>
 ---
 
 
