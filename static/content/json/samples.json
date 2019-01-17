@@ -2,7 +2,7 @@
   {
     "url": "/VehicleRecognition/static/media/samples/pics/0.jpg",
     "thumb": "/VehicleRecognition/static/media/samples/thumbnails/0.jpg",
-    "label": "Logan"
+    "label": "Peugeot Persia"
   },
   {
     "url": "/VehicleRecognition/static/media/samples/pics/1.jpg",
@@ -37,7 +37,7 @@
   {
     "url": "/VehicleRecognition/static/media/samples/pics/7.jpg",
     "thumb": "/VehicleRecognition/static/media/samples/thumbnails/7.jpg",
-    "label": "Tiba"
+    "label": "Xantia"
   },
   {
     "url": "/VehicleRecognition/static/media/samples/pics/8.jpg",
@@ -62,7 +62,7 @@
   {
     "url": "/VehicleRecognition/static/media/samples/pics/12.jpg",
     "thumb": "/VehicleRecognition/static/media/samples/thumbnails/12.jpg",
-    "label": "Xantia"
+    "label": "Samand"
   },
   {
     "url": "/VehicleRecognition/static/media/samples/pics/13.jpg",
