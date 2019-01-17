@@ -8,9 +8,9 @@
       "Classifier": "SVM"
     },
     "name": "SqueezeNet with SVM",
-    "modelUrl": "/static/models/tensorflow_squeezenet_svm/tensorflowjs_model.pb",
-    "weightsManifestUrl": "/static/models/tensorflow_squeezenet_svm/weights_manifest.json",
-    "labelsUrl": "/static/models/labels.json",
+    "modelUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet_svm/tensorflowjs_model.pb",
+    "weightsManifestUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet_svm/weights_manifest.json",
+    "labelsUrl": "/VehicleRecognition/static/models/labels.json",
     "inputSize": 227,
     "inputDim": 3,
     "inputMean": [
@@ -29,9 +29,9 @@
       "Classifier": "SVM"
     },
     "name": "CarNet with SVM",
-    "modelUrl": "/static/models/tensorflow_carnet_svm/tensorflowjs_model.pb",
-    "weightsManifestUrl": "/static/models/tensorflow_carnet_svm/weights_manifest.json",
-    "labelsUrl": "/static/models/labels.json",
+    "modelUrl": "/VehicleRecognition/static/models/tensorflow_carnet_svm/tensorflowjs_model.pb",
+    "weightsManifestUrl": "/VehicleRecognition/static/models/tensorflow_carnet_svm/weights_manifest.json",
+    "labelsUrl": "/VehicleRecognition/static/models/labels.json",
     "inputSize": 224,
     "inputDim": 3,
     "inputMean": [
@@ -50,9 +50,9 @@
       "Classifier": "Softmax"
     },
     "name": "SqueezeNet with Softmax",
-    "modelUrl": "/static/models/tensorflow_squeezenet/tensorflowjs_model.pb",
-    "weightsManifestUrl": "/static/models/tensorflow_squeezenet/weights_manifest.json",
-    "labelsUrl": "/static/models/labels.json",
+    "modelUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet/tensorflowjs_model.pb",
+    "weightsManifestUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet/weights_manifest.json",
+    "labelsUrl": "/VehicleRecognition/static/models/labels.json",
     "inputSize": 227,
     "inputDim": 3,
     "inputMean": [
@@ -71,9 +71,9 @@
       "Classifier": "Softmax"
     },
     "name": "SqueezeNet with Softmax (Beta)",
-    "modelUrl": "/static/models/tensorflow_squeezenet_beta/tensorflowjs_model.pb",
-    "weightsManifestUrl": "/static/models/tensorflow_squeezenet_beta/weights_manifest.json",
-    "labelsUrl": "/static/models/labels_ex.json",
+    "modelUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet_beta/tensorflowjs_model.pb",
+    "weightsManifestUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet_beta/weights_manifest.json",
+    "labelsUrl": "/VehicleRecognition/static/models/labels_ex.json",
     "inputSize": 227,
     "inputDim": 3,
     "inputMean": [
