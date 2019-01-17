@@ -1,0 +1,86 @@
+[
+  {
+    "details": {
+      "Network name": "SqueezeNet with SVM",
+      "Description": "SqueezeNet network trained on the noise reduced dataset with 9 classes. Obtaining the accuracy of 90%.",
+      "Model size": "4.7 MB",
+      "Number of layers": "10",
+      "Classifier": "SVM"
+    },
+    "name": "SqueezeNet with SVM",
+    "modelUrl": "/static/models/tensorflow_squeezenet_svm/tensorflowjs_model.pb",
+    "weightsManifestUrl": "/static/models/tensorflow_squeezenet_svm/weights_manifest.json",
+    "labelsUrl": "/static/models/labels.json",
+    "inputSize": 227,
+    "inputDim": 3,
+    "inputMean": [
+      123.0,
+      117.0,
+      104.0
+    ],
+    "classes": 9
+  },
+  {
+    "details": {
+      "Network name": "CarNet with SVM",
+      "Description": "CarNet network trained on noise reduced dataset with 9 classes. Obtaining the accuracy of 96%.",
+      "Model size": "23 MB",
+      "Number of layers": "22",
+      "Classifier": "SVM"
+    },
+    "name": "CarNet with SVM",
+    "modelUrl": "/static/models/tensorflow_carnet_svm/tensorflowjs_model.pb",
+    "weightsManifestUrl": "/static/models/tensorflow_carnet_svm/weights_manifest.json",
+    "labelsUrl": "/static/models/labels.json",
+    "inputSize": 224,
+    "inputDim": 3,
+    "inputMean": [
+      123.0,
+      117.0,
+      104.0
+    ],
+    "classes": 9
+  },
+  {
+    "details": {
+      "Network name": "SqueezeNet with Softmax",
+      "Description": "SqueezeNet network trained on the clean subset with 9 classes. Obtaining the accuracy of 90%.",
+      "Model size": "4.7 MB",
+      "Number of layers": "10",
+      "Classifier": "Softmax"
+    },
+    "name": "SqueezeNet with Softmax",
+    "modelUrl": "/static/models/tensorflow_squeezenet/tensorflowjs_model.pb",
+    "weightsManifestUrl": "/static/models/tensorflow_squeezenet/weights_manifest.json",
+    "labelsUrl": "/static/models/labels.json",
+    "inputSize": 227,
+    "inputDim": 3,
+    "inputMean": [
+      123.0,
+      117.0,
+      104.0
+    ],
+    "classes": 9
+  },
+  {
+    "details": {
+      "Network name": "SqueezeNet with Softmax (Beta)",
+      "Description": "SqueezeNet network trained on the clean subset with 15 classes. Obtaining the accuracy of 80%.",
+      "Model size": "4.7 MB",
+      "Number of layers": "6",
+      "Classifier": "Softmax"
+    },
+    "name": "SqueezeNet with Softmax (Beta)",
+    "modelUrl": "/static/models/tensorflow_squeezenet_beta/tensorflowjs_model.pb",
+    "weightsManifestUrl": "/static/models/tensorflow_squeezenet_beta/weights_manifest.json",
+    "labelsUrl": "/static/models/labels_ex.json",
+    "inputSize": 227,
+    "inputDim": 3,
+    "inputMean": [
+      123.0,
+      117.0,
+      104.0
+    ],
+    "classes": 15
+  }
+]

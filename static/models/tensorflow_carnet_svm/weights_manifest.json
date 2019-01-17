@@ -1,0 +1,1003 @@
+[
+  {
+    "paths": [
+      "group1-shard1of6.bin",
+      "group1-shard2of6.bin",
+      "group1-shard3of6.bin",
+      "group1-shard4of6.bin",
+      "group1-shard5of6.bin",
+      "group1-shard6of6.bin"
+    ],
+    "weights": [
+      {
+        "name": "inception_5b_1x1/weights",
+        "shape": [
+          1,
+          1,
+          832,
+          384
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5b_1x1/biases",
+        "shape": [
+          384
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5b_3x3_reduce/weights",
+        "shape": [
+          1,
+          1,
+          832,
+          192
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5b_3x3_reduce/biases",
+        "shape": [
+          192
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5b_3x3/weights",
+        "shape": [
+          3,
+          3,
+          192,
+          384
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5b_3x3/biases",
+        "shape": [
+          384
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5b_5x5_reduce/weights",
+        "shape": [
+          1,
+          1,
+          832,
+          48
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5b_5x5_reduce/biases",
+        "shape": [
+          48
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5b_5x5/weights",
+        "shape": [
+          5,
+          5,
+          48,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5b_5x5/biases",
+        "shape": [
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_1x1/weights",
+        "shape": [
+          1,
+          1,
+          832,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_1x1/biases",
+        "shape": [
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_3x3_reduce/weights",
+        "shape": [
+          1,
+          1,
+          832,
+          160
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_3x3_reduce/biases",
+        "shape": [
+          160
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_3x3/weights",
+        "shape": [
+          3,
+          3,
+          160,
+          320
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_3x3/biases",
+        "shape": [
+          320
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_5x5_reduce/weights",
+        "shape": [
+          1,
+          1,
+          832,
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_5x5_reduce/biases",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_5x5/weights",
+        "shape": [
+          5,
+          5,
+          32,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_5x5/biases",
+        "shape": [
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_1x1/weights",
+        "shape": [
+          1,
+          1,
+          528,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_1x1/biases",
+        "shape": [
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_3x3_reduce/weights",
+        "shape": [
+          1,
+          1,
+          528,
+          160
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_3x3_reduce/biases",
+        "shape": [
+          160
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_3x3/weights",
+        "shape": [
+          3,
+          3,
+          160,
+          320
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_3x3/biases",
+        "shape": [
+          320
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_5x5_reduce/weights",
+        "shape": [
+          1,
+          1,
+          528,
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_5x5_reduce/biases",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_5x5/weights",
+        "shape": [
+          5,
+          5,
+          32,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_5x5/biases",
+        "shape": [
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_1x1/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          112
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_1x1/biases",
+        "shape": [
+          112
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_3x3_reduce/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          144
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_3x3_reduce/biases",
+        "shape": [
+          144
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_3x3/weights",
+        "shape": [
+          3,
+          3,
+          144,
+          288
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_3x3/biases",
+        "shape": [
+          288
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_5x5_reduce/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_5x5_reduce/biases",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_5x5/weights",
+        "shape": [
+          5,
+          5,
+          32,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_5x5/biases",
+        "shape": [
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_1x1/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_1x1/biases",
+        "shape": [
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_3x3_reduce/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_3x3_reduce/biases",
+        "shape": [
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_3x3/weights",
+        "shape": [
+          3,
+          3,
+          128,
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_3x3/biases",
+        "shape": [
+          256
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_5x5_reduce/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          24
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_5x5_reduce/biases",
+        "shape": [
+          24
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_5x5/weights",
+        "shape": [
+          5,
+          5,
+          24,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_5x5/biases",
+        "shape": [
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_1x1/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          160
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_1x1/biases",
+        "shape": [
+          160
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_3x3_reduce/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          112
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_3x3_reduce/biases",
+        "shape": [
+          112
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_3x3/weights",
+        "shape": [
+          3,
+          3,
+          112,
+          224
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_3x3/biases",
+        "shape": [
+          224
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_5x5_reduce/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          24
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_5x5_reduce/biases",
+        "shape": [
+          24
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_5x5/weights",
+        "shape": [
+          5,
+          5,
+          24,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_5x5/biases",
+        "shape": [
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_1x1/weights",
+        "shape": [
+          1,
+          1,
+          480,
+          192
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_1x1/biases",
+        "shape": [
+          192
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_3x3_reduce/weights",
+        "shape": [
+          1,
+          1,
+          480,
+          96
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_3x3_reduce/biases",
+        "shape": [
+          96
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_3x3/weights",
+        "shape": [
+          3,
+          3,
+          96,
+          208
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_3x3/biases",
+        "shape": [
+          208
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_5x5_reduce/weights",
+        "shape": [
+          1,
+          1,
+          480,
+          16
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_5x5_reduce/biases",
+        "shape": [
+          16
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_5x5/weights",
+        "shape": [
+          5,
+          5,
+          16,
+          48
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_5x5/biases",
+        "shape": [
+          48
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_1x1/weights",
+        "shape": [
+          1,
+          1,
+          256,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_1x1/biases",
+        "shape": [
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_3x3_reduce/weights",
+        "shape": [
+          1,
+          1,
+          256,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_3x3_reduce/biases",
+        "shape": [
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_3x3/weights",
+        "shape": [
+          3,
+          3,
+          128,
+          192
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_3x3/biases",
+        "shape": [
+          192
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_5x5_reduce/weights",
+        "shape": [
+          1,
+          1,
+          256,
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_5x5_reduce/biases",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_5x5/weights",
+        "shape": [
+          5,
+          5,
+          32,
+          96
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_5x5/biases",
+        "shape": [
+          96
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_1x1/weights",
+        "shape": [
+          1,
+          1,
+          192,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_1x1/biases",
+        "shape": [
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_3x3_reduce/weights",
+        "shape": [
+          1,
+          1,
+          192,
+          96
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_3x3_reduce/biases",
+        "shape": [
+          96
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_3x3/weights",
+        "shape": [
+          3,
+          3,
+          96,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_3x3/biases",
+        "shape": [
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_5x5_reduce/weights",
+        "shape": [
+          1,
+          1,
+          192,
+          16
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_5x5_reduce/biases",
+        "shape": [
+          16
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_5x5/weights",
+        "shape": [
+          5,
+          5,
+          16,
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_5x5/biases",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "conv1/weights",
+        "shape": [
+          7,
+          7,
+          3,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "conv1/biases",
+        "shape": [
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "conv2_1x1/weights",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "conv2_1x1/biases",
+        "shape": [
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "conv2_3x3/weights",
+        "shape": [
+          3,
+          3,
+          64,
+          192
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "conv2_3x3/biases",
+        "shape": [
+          192
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_pool_proj/weights",
+        "shape": [
+          1,
+          1,
+          192,
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_pool_proj/biases",
+        "shape": [
+          32
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_pool_proj/weights",
+        "shape": [
+          1,
+          1,
+          256,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3b_pool_proj/biases",
+        "shape": [
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_pool_proj/weights",
+        "shape": [
+          1,
+          1,
+          480,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4a_pool_proj/biases",
+        "shape": [
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_pool_proj/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4b_pool_proj/biases",
+        "shape": [
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_pool_proj/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4c_pool_proj/biases",
+        "shape": [
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_pool_proj/weights",
+        "shape": [
+          1,
+          1,
+          512,
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4d_pool_proj/biases",
+        "shape": [
+          64
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_pool_proj/weights",
+        "shape": [
+          1,
+          1,
+          528,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_4e_pool_proj/biases",
+        "shape": [
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_pool_proj/weights",
+        "shape": [
+          1,
+          1,
+          832,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5a_pool_proj/biases",
+        "shape": [
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5b_pool_proj/weights",
+        "shape": [
+          1,
+          1,
+          832,
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_5b_pool_proj/biases",
+        "shape": [
+          128
+        ],
+        "dtype": "float32"
+      },
+      {
+        "name": "inception_3a_output/axis",
+        "shape": [],
+        "dtype": "int32"
+      },
+      {
+        "name": "SVM_W/Reshape/shape",
+        "shape": [
+          2
+        ],
+        "dtype": "int32"
+      },
+      {
+        "name": "SVM_W/weights",
+        "shape": [
+          1024,
+          9
+        ],
+        "dtype": "float32"
+      }
+    ]
+  }
+]
