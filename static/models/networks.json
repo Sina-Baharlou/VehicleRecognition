@@ -18,7 +18,18 @@
       117.0,
       104.0
     ],
-    "classes": 9
+    "classes": 9,
+    "verArray": [
+      -1.3352635,
+      -0.5003132,
+      0.2333395,
+      -0.0226158,
+      -2.9919376,
+      -0.8238358,
+      -2.3624144,
+      -1.9904425,
+      -0.4121332
+    ]
   },
   {
     "details": {
@@ -39,7 +50,18 @@
       117.0,
       104.0
     ],
-    "classes": 9
+    "classes": 9,
+    "verArray": [
+      -0.2352058,
+      -0.3470778,
+      -0.0945066,
+      -0.0532196,
+      -0.1766103,
+      -0.1528929,
+      -0.2105781,
+      -0.230839,
+      0.1004711
+    ]
   },
   {
     "details": {
@@ -60,14 +82,25 @@
       117.0,
       104.0
     ],
-    "classes": 9
+    "classes": 9,
+    "verArray": [
+      0.9299041,
+      0.0351972,
+      0.0220544,
+      5e-7,
+      0,
+      0.011884,
+      0.0000056,
+      0.0009476,
+      0.0000047
+    ]
   },
   {
     "details": {
       "Network name": "SqueezeNet with Softmax (Beta)",
       "Description": "SqueezeNet network trained on the clean subset with 15 classes. Obtaining the accuracy of 80%.",
       "Model size": "4.7 MB",
-      "Number of layers": "6",
+      "Number of layers": "10",
       "Classifier": "Softmax"
     },
     "name": "SqueezeNet with Softmax (Beta)",
@@ -81,6 +114,23 @@
       117.0,
       104.0
     ],
-    "classes": 15
+    "classes": 15,
+    "verArray": [
+      0.0083709,
+      0.0021652,
+      0.0008125,
+      0.0000922,
+      0.0060632,
+      0.0012404,
+      0.0112777,
+      0.9540156,
+      0.0003768,
+      0,
+      0.0141334,
+      1e-7,
+      0.001003,
+      0.000012,
+      1e-7
+    ]
   }
 ]
