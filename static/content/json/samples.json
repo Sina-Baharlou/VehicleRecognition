@@ -108,5 +108,20 @@
     "url": "/VehicleRecognition/static/media/samples/pics/21.jpg",
     "thumb": "/VehicleRecognition/static/media/samples/thumbnails/21.jpg",
     "label": "Logan"
+  },
+    {
+    "url": "/VehicleRecognition/static/media/samples/pics/22.jpg",
+    "thumb": "/VehicleRecognition/static/media/samples/thumbnails/22.jpg",
+    "label": "Tiba"
+  },
+    {
+    "url": "/VehicleRecognition/static/media/samples/pics/23.jpg",
+    "thumb": "/VehicleRecognition/static/media/samples/thumbnails/23.jpg",
+    "label": "Pride"
+  },
+    {
+    "url": "/VehicleRecognition/static/media/samples/pics/24.jpg",
+    "thumb": "/VehicleRecognition/static/media/samples/thumbnails/24.jpg",
+    "label": "Peykan"
   }
 ]

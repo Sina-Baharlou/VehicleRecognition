@@ -1,47 +1,14 @@
 [
   {
     "details": {
-      "Network name": "SqueezeNet with SVM",
-      "Description": "SqueezeNet network trained on the noise reduced dataset with 9 classes. Obtaining the accuracy of 90%.",
-      "Model size": "4.7 MB",
-      "Number of layers": "10",
-      "Classifier": "SVM"
+      "Network name": "MobileNet with Softmax",
+      "Description": "MobileNet V1.0 trained and fine-tuned on the entire noisy dataset with 9 classes, obtaining the accuracy of ~98%.",
+      "Model size": "12.4 MB",
+      "Number of layers": "24",
+      "Classifier": "Softmax"
     },
-    "name": "SqueezeNet with SVM",
-    "modelUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet_svm/tensorflowjs_model.pb",
-    "weightsManifestUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet_svm/weights_manifest.json",
-    "labelsUrl": "/VehicleRecognition/static/models/labels.json",
-    "inputSize": 227,
-    "inputDim": 3,
-    "inputMean": [
-      123.0,
-      117.0,
-      104.0
-    ],
-    "classes": 9,
-    "verArray": [
-      -1.3352635,
-      -0.5003132,
-      0.2333395,
-      -0.0226158,
-      -2.9919376,
-      -0.8238358,
-      -2.3624144,
-      -1.9904425,
-      -0.4121332
-    ]
-  },
-  {
-    "details": {
-      "Network name": "CarNet with SVM",
-      "Description": "CarNet network trained on noise reduced dataset with 9 classes. Obtaining the accuracy of 96%.",
-      "Model size": "23 MB",
-      "Number of layers": "22",
-      "Classifier": "SVM"
-    },
-    "name": "CarNet with SVM",
-    "modelUrl": "/VehicleRecognition/static/models/tensorflow_carnet_svm/tensorflowjs_model.pb",
-    "weightsManifestUrl": "/VehicleRecognition/static/models/tensorflow_carnet_svm/weights_manifest.json",
+    "name": "MobileNet with Softmax",
+    "modelUrl": "/VehicleRecognition/static/models/tensorflow_mobilenet_ft/model.json",
     "labelsUrl": "/VehicleRecognition/static/models/labels.json",
     "inputSize": 224,
     "inputDim": 3,
@@ -50,87 +17,26 @@
       117.0,
       104.0
     ],
-    "classes": 9,
-    "verArray": [
-      -0.2352058,
-      -0.3470778,
-      -0.0945066,
-      -0.0532196,
-      -0.1766103,
-      -0.1528929,
-      -0.2105781,
-      -0.230839,
-      0.1004711
-    ]
+    "classes": 9
   },
   {
     "details": {
-      "Network name": "SqueezeNet with Softmax",
-      "Description": "SqueezeNet network trained on the clean subset with 9 classes. Obtaining the accuracy of 90%.",
-      "Model size": "4.7 MB",
-      "Number of layers": "10",
-      "Classifier": "Softmax"
+      "Network name": "MobileNet with SVM",
+      "Description": "MobileNet V1.0 used as the feature extractor, and an SVM classifier is trained on the entire noisy features, obtaining the accuracy of ~92%.",
+      "Model size": "12.4 MB",
+      "Number of layers": "24",
+      "Classifier": "SVM"
     },
-    "name": "SqueezeNet with Softmax",
-    "modelUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet/tensorflowjs_model.pb",
-    "weightsManifestUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet/weights_manifest.json",
+    "name": "MobileNet with SVM",
+    "modelUrl": "/VehicleRecognition/static/models/tensorflow_mobilenet_svm/model.json",
     "labelsUrl": "/VehicleRecognition/static/models/labels.json",
-    "inputSize": 227,
+    "inputSize": 224,
     "inputDim": 3,
     "inputMean": [
       123.0,
       117.0,
       104.0
     ],
-    "classes": 9,
-    "verArray": [
-      0.9299041,
-      0.0351972,
-      0.0220544,
-      5e-7,
-      0,
-      0.011884,
-      0.0000056,
-      0.0009476,
-      0.0000047
-    ]
-  },
-  {
-    "details": {
-      "Network name": "SqueezeNet with Softmax (Beta)",
-      "Description": "SqueezeNet network trained on the clean subset with 15 classes. Obtaining the accuracy of 80%.",
-      "Model size": "4.7 MB",
-      "Number of layers": "10",
-      "Classifier": "Softmax"
-    },
-    "name": "SqueezeNet with Softmax (Beta)",
-    "modelUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet_beta/tensorflowjs_model.pb",
-    "weightsManifestUrl": "/VehicleRecognition/static/models/tensorflow_squeezenet_beta/weights_manifest.json",
-    "labelsUrl": "/VehicleRecognition/static/models/labels_ex.json",
-    "inputSize": 227,
-    "inputDim": 3,
-    "inputMean": [
-      123.0,
-      117.0,
-      104.0
-    ],
-    "classes": 15,
-    "verArray": [
-      0.0083709,
-      0.0021652,
-      0.0008125,
-      0.0000922,
-      0.0060632,
-      0.0012404,
-      0.0112777,
-      0.9540156,
-      0.0003768,
-      0,
-      0.0141334,
-      1e-7,
-      0.001003,
-      0.000012,
-      1e-7
-    ]
+    "classes": 9
   }
 ]
